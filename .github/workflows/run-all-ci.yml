@@ -1,0 +1,20 @@
+# Copyright (C) 2023, Ava Labs, Inc. All rights reserved.
+# See the file LICENSE for licensing terms.
+
+name: Run All CI
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  check-for-label:
+    runs-on: ubuntu-latest
+    steps:
+      - run: if $RUN_ALL_CI == true; then exit 0; else exit 1; fi
+        env:
+          RUN_ALL_CI: ${{ contains(github.event.pull_request.labels.*.name, 'run all ci') }}
