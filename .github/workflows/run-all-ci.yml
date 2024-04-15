@@ -17,4 +17,5 @@ jobs:
     steps:
       - run: if $RUN_ALL_CI == true; then exit 0; else exit 1; fi
         env:
-          RUN_ALL_CI: ${{ contains(github.event.pull_request.labels.*.name, 'run all ci') }}
+          #   RUN_ALL_CI: ${{ contains(github.event.pull_request.labels.*.name, 'run all ci') }}
+          RUN_ALL_CI: ${{ contains(github.event.pull_request.labels.*.name, 'wasmlanche') }}
