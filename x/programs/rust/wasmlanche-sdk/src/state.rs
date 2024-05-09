@@ -131,7 +131,10 @@ where
     /// # Errors
     /// Returns an [Error] if the key cannot be serialized
     /// or if the host fails to delete the key and the associated value
-    pub fn delete<T: BorshDeserialize>(&mut self, key: K) -> Result<Option<T>, Error> {
+    pub fn delete<T: BorshDeserialize + std::fmt::Debug>(
+        &mut self,
+        key: K,
+    ) -> Result<Option<T>, Error> {
         self.cache.remove(&key);
 
         let args = GetAndDeleteArgs {
@@ -238,7 +241,9 @@ mod host {
     }
 
     /// Deletes the bytes at key ptr from the host storage
-    pub(super) fn delete_bytes<T: BorshDeserialize>(bytes: &[u8]) -> Result<Option<T>, Error> {
+    pub(super) fn delete_bytes<T: BorshDeserialize + std::fmt::Debug>(
+        bytes: &[u8],
+    ) -> Result<Option<T>, Error> {
         #[link(wasm_import_module = "state")]
         extern "C" {
             #[link_name = "delete"]

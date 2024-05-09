@@ -114,7 +114,7 @@ pub fn transfer(context: Context, sender: Address, recipient: Address, amount: i
     true
 }
 
-#[derive(BorshDeserialize, BorshSerialize)]
+#[derive(BorshDeserialize, BorshSerialize, Debug)]
 pub struct Minter {
     to: Address,
     amount: i32,
@@ -163,6 +163,44 @@ mod tests {
         let plan_responses = simulator.run_plan(&plan).unwrap();
 
         // ensure no errors
+        assert!(
+            plan_responses.iter().all(|resp| resp.error.is_none()),
+            "error: {:?}",
+            plan_responses
+                .iter()
+                .filter_map(|resp| resp.error.as_ref())
+                .next()
+        );
+    }
+
+    #[test]
+    fn init_token() {
+        let simulator = simulator::Client::new();
+
+        let owner_key_id = String::from("owner");
+        let owner_key = Key::Ed25519(owner_key_id.clone());
+
+        let mut plan = Plan::new(owner_key_id);
+
+        plan.add_step(Step::create_key(owner_key.clone()));
+        let program_id = plan.add_step(Step {
+            endpoint: Endpoint::Execute,
+            method: "program_create".into(),
+            max_units: 0,
+            params: vec![Param::String(PROGRAM_PATH.into())],
+            require: None,
+        });
+
+        plan.add_step(Step {
+            endpoint: Endpoint::Execute,
+            method: "init".into(),
+            params: vec![program_id.into()],
+            max_units: 1000000,
+            require: None,
+        });
+
+        let plan_responses = simulator.run_plan(&plan).unwrap();
+
         assert!(
             plan_responses.iter().all(|resp| resp.error.is_none()),
             "error: {:?}",

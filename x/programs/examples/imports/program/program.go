@@ -53,10 +53,19 @@ func (*Import) Name() string {
 	return Name
 }
 
-func (i *Import) Register(link *host.Link, callContext program.Context) error {
+func (i *Import) Register(link *host.Link, callContext *program.Context) error {
 	i.meter = link.Meter()
 	i.imports = link.Imports()
-	return link.RegisterImportFn(Name, "call_program", i.callProgramFn(callContext))
+
+	if err := link.RegisterImportFn(Name, "call_program", i.callProgramFn(callContext)); err != nil {
+		return err
+	}
+
+	if err := link.RegisterImportFn(Name, "set_call_result", i.callProgramFn(callContext)); err != nil {
+		return err
+	}
+
+	return nil
 }
 
 type callProgramFnArgs struct {
@@ -67,12 +76,12 @@ type callProgramFnArgs struct {
 }
 
 // callProgramFn makes a call to an entry function of a program in the context of another program's ID.
-func (i *Import) callProgramFn(callContext program.Context) func(*wasmtime.Caller, int32, int32) int64 {
+func (i *Import) callProgramFn(callContext *program.Context) func(*wasmtime.Caller, int32, int32) {
 	return func(
 		wasmCaller *wasmtime.Caller,
 		memOffset int32,
 		size int32,
-	) int64 {
+	) {
 		ctx, cancel := context.WithCancel(context.Background())
 		defer cancel()
 
@@ -82,7 +91,7 @@ func (i *Import) callProgramFn(callContext program.Context) func(*wasmtime.Calle
 			i.log.Error("failed to get memory from caller",
 				zap.Error(err),
 			)
-			return -1
+			return
 		}
 
 		bytes, err := memory.Range(uint32(memOffset), uint32(size))
@@ -90,7 +99,7 @@ func (i *Import) callProgramFn(callContext program.Context) func(*wasmtime.Calle
 			i.log.Error("failed to read call arguments from memory",
 				zap.Error(err),
 			)
-			return -1
+			return
 		}
 
 		args := callProgramFnArgs{}
@@ -99,7 +108,7 @@ func (i *Import) callProgramFn(callContext program.Context) func(*wasmtime.Calle
 
 				zap.Error(err),
 			)
-			return -1
+			return
 		}
 
 		// get the program bytes from storage
@@ -108,7 +117,7 @@ func (i *Import) callProgramFn(callContext program.Context) func(*wasmtime.Calle
 			i.log.Error("failed to get program bytes from storage",
 				zap.Error(err),
 			)
-			return -1
+			return
 		}
 
 		// create a new runtime for the program to be invoked with a zero balance.
@@ -118,7 +127,7 @@ func (i *Import) callProgramFn(callContext program.Context) func(*wasmtime.Calle
 			i.log.Error("failed to initialize runtime",
 				zap.Error(err),
 			)
-			return -1
+			return
 		}
 
 		// transfer the units from the caller to the new runtime before any calls are made.
@@ -129,7 +138,7 @@ func (i *Import) callProgramFn(callContext program.Context) func(*wasmtime.Calle
 				zap.Int64("required", args.MaxUnits),
 				zap.Error(err),
 			)
-			return -1
+			return
 		}
 
 		// transfer remaining balance back to parent runtime
@@ -154,7 +163,7 @@ func (i *Import) callProgramFn(callContext program.Context) func(*wasmtime.Calle
 			i.log.Error("failed to get memory from runtime",
 				zap.Error(err),
 			)
-			return -1
+			return
 		}
 
 		// sync args to new runtime and return arguments to the invoke call
@@ -163,11 +172,11 @@ func (i *Import) callProgramFn(callContext program.Context) func(*wasmtime.Calle
 			i.log.Error("failed to unmarshal call arguments",
 				zap.Error(err),
 			)
-			return -1
+			return
 		}
 
 		functionName := string(args.Function)
-		res, err := rt.Call(ctx, functionName, program.Context{
+		res, err := rt.Call(ctx, functionName, &program.Context{
 			ProgramID: ids.ID(args.ProgramID),
 			// Actor:            callContext.ProgramID,
 			// OriginatingActor: callContext.OriginatingActor,
@@ -176,10 +185,41 @@ func (i *Import) callProgramFn(callContext program.Context) func(*wasmtime.Calle
 			i.log.Error("failed to call entry function",
 				zap.Error(err),
 			)
-			return -1
+			return
 		}
 
-		return res[0]
+		callContext.SetResult(res)
+
+		return
+	}
+}
+
+func (i *Import) setCallResultFn(context *program.Context) func(*wasmtime.Caller, int32, int32) {
+	return func(
+		wasmCaller *wasmtime.Caller,
+		memOffset int32,
+		size int32,
+	) {
+		caller := program.NewCaller(wasmCaller)
+		memory, err := caller.Memory()
+		if err != nil {
+			i.log.Error("failed to get memory from caller",
+				zap.Error(err),
+			)
+			// TODO: panic
+			return
+		}
+
+		bytes, err := memory.Range(uint32(memOffset), uint32(size))
+		if err != nil {
+			i.log.Error("failed to read call arguments from memory",
+				zap.Error(err),
+			)
+			// TODO: panic
+			return
+		}
+
+		context.SetResult(bytes)
 	}
 }
 

@@ -245,6 +245,7 @@ func runStepFunc(
 			return err
 		}
 		resp.setResponse(response)
+		fmt.Fprintf(os.Stderr, "response: %v\n", response)
 		ok, err := validateAssertion(response[0], require)
 		if !ok {
 			return fmt.Errorf("%w", ErrResultAssertionFailed)

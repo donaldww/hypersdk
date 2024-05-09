@@ -24,10 +24,12 @@ thread_local! {
 /// Returns an [`StateError`] if the bytes cannot be deserialized.
 pub fn from_host_ptr<V>(ptr: *const u8) -> Result<V, StateError>
 where
-    V: BorshDeserialize,
+    V: BorshDeserialize + std::fmt::Debug,
 {
     match into_bytes(ptr) {
-        Some(bytes) => from_slice::<V>(&bytes).map_err(|_| StateError::Deserialization),
+        Some(bytes) => {
+            crate::dbg!(from_slice::<V>(&bytes)).map_err(|_| StateError::Deserialization)
+        }
         None => Err(StateError::InvalidPointer),
     }
 }
