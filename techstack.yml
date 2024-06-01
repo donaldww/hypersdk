@@ -1,0 +1,1448 @@
+repo_name: donaldww/hypersdk
+report_id: 2e7d62799e3137e3561cd6d89bf9ca50
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-01T01:50:46+00:00'
+requested_by: richardpringle
+provider: github
+branch: main
+detected_tools_count: 102
+tools:
+- name: Go Ethereum
+  description: Open source platform to write and distribute decentralized applications
+  website_url: https://geth.ethereum.org/
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/9003/DOnqq1OM_400x400.jpg
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.mod
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-08-02 23:29:13.000000000 Z
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/donaldww/hypersdk
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/donaldww/hypersdk
+  detection_source: Repo Metadata
+- name: Ant Design
+  description: A set of high-quality React components
+  website_url: https://ant.design
+  version: 5.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6112/12101536.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package-lock.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: Echo
+  description: High performance, extensible, minimalist Go web framework
+  website_url: https://echo.labstack.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/4996/9P0MlumU_400x400.jpg
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/go.mod
+  detection_source: examples/tokenvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-02-25 00:32:57.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.mod
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-11-06 20:04:55.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package-lock.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package-lock.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.mod
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/donaldww/hypersdk
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/.github/workflows/codeql-analysis.yml
+  detection_source: ".github/workflows/codeql-analysis.yml"
+  last_updated_by: Richard Pringle
+  last_updated_on: 2024-05-01 12:13:40.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.mod
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-08-02 23:29:13.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.mod
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/donaldww/hypersdk
+  detection_source: Repo Metadata
+- name: gogo/protobuf
+  description: Protocol Buffers for Go with Gadgets
+  package_url: https://pkg.go.dev/github.com/gogo/protobuf
+  version: 1.2.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-11-06 20:04:55.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in GoGo Protobuf
+    cve_id: CVE-2021-3121
+    cve_url: https://github.com/advisories/GHSA-c3h9-896r-86jm
+    detected_date: Mar 30
+    severity: high
+    first_patched: 1.3.2
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.2.1
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
+- name: afero
+  description: A FileSystem Abstraction System for Go
+  package_url: https://pkg.go.dev/github.com/spf13/afero
+  version: 1.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: assertion
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega/internal/assertion
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.mod
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-08-11 21:26:49.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: William Law
+  last_updated_on: 2024-04-17 17:46:05.000000000 Z
+- name: browser
+  description: Package browser provides helpers to open files
+  package_url: https://pkg.go.dev/github.com/pkg/browser
+  version: 0.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-08-02 22:50:43.000000000 Z
+- name: btree
+  description: Package btree implements in-memory B-Trees of arbitrary degree
+  package_url: https://pkg.go.dev/github.com/google/btree
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: bytebufferpool
+  description: Anti-memory-waste byte buffer pool
+  package_url: https://pkg.go.dev/github.com/valyala/bytebufferpool
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/tokenvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: cast
+  description: Safe and easy casting from one type to another in Go
+  package_url: https://pkg.go.dev/github.com/spf13/cast
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: client_model
+  description: Data model artifacts for Prometheus
+  package_url: https://pkg.go.dev/github.com/prometheus/client_model
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: cobra
+  description: A Commander for modern Go CLI interactions
+  package_url: https://pkg.go.dev/github.com/spf13/cobra
+  version: 0.0.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: color
+  description: Color package for Go
+  package_url: https://pkg.go.dev/github.com/fatih/color
+  version: 1.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: common
+  description: Go libraries shared across Prometheus components and libraries
+  package_url: https://pkg.go.dev/github.com/prometheus/common
+  version: 0.42.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: compress
+  description: Optimized compression packages
+  package_url: https://pkg.go.dev/github.com/klauspost/compress
+  version: 1.8.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: cors
+  description: Go net/http configurable handler to handle CORS requests
+  package_url: https://pkg.go.dev/github.com/rs/cors
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.8.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: exp
+  description: Experimental and deprecated packages
+  package_url: https://pkg.go.dev/golang.org/x/exp
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: fastcache
+  description: Fast thread-safe inmemory cache for big number of entries in Go
+  package_url: https://pkg.go.dev/github.com/VictoriaMetrics/fastcache
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: fasttemplate
+  description: Simple and fast template engine for Go
+  package_url: https://pkg.go.dev/github.com/valyala/fasttemplate
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/tokenvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: fsnotify
+  description: Cross-platform file system notifications for Go
+  package_url: https://pkg.go.dev/github.com/fsnotify/fsnotify
+  version: 1.4.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: gateway
+  description: A library for discovering the address of a LAN gateway
+  package_url: https://pkg.go.dev/github.com/jackpal/gateway
+  version: 1.0.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: go-bip39
+  description: A BIP39 implementation in Go
+  package_url: https://pkg.go.dev/github.com/tyler-smith/go-bip39
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: go-ethereum
+  description: Official Go implementation of the Ethereum protocol
+  package_url: https://pkg.go.dev/github.com/ethereum/go-ethereum
+  version: 1.12.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-08-02 23:29:13.000000000 Z
+- name: go-grpc-prometheus
+  description: Prometheus monitoring for your gRPC Go servers
+  package_url: https://pkg.go.dev/github.com/grpc-ecosystem/go-grpc-prometheus
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-11-06 20:04:55.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-11-06 20:04:55.000000000 Z
+- name: go-nat-pmp
+  description: A Go language client for the NAT-PMP internet protocol for port mapping
+    and discovering the external IP address of a firewall
+  package_url: https://pkg.go.dev/github.com/jackpal/go-nat-pmp
+  version: 1.0.2
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: go-ole
+  description: Win32 ole implementation for golang
+  package_url: https://pkg.go.dev/github.com/go-ole/go-ole
+  version: 1.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: go-runewidth
+  description: Go-runewidth Provides functions to get fixed width of the character
+    or string
+  package_url: https://pkg.go.dev/github.com/mattn/go-runewidth
+  version: 0.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 0.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: go-toml
+  description: Go library for the TOML language
+  package_url: https://pkg.go.dev/github.com/pelletier/go-toml
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: go-winio
+  description: Win32 IO-related utilities for Go
+  package_url: https://pkg.go.dev/github.com/Microsoft/go-winio
+  version: 0.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: goja
+  description: ECMAScript 5.1
+  package_url: https://pkg.go.dev/github.com/dop251/goja
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: golang-lru
+  description: Golang LRU cache
+  package_url: https://pkg.go.dev/github.com/hashicorp/golang-lru
+  version: 0.5.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: golang_protobuf_extensions
+  description: Support for streaming Protocol Buffer messages for the Go language
+  package_url: https://pkg.go.dev/github.com/matttproud/golang_protobuf_extensions
+  version: 1.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: goleveldb
+  description: LevelDB key/value database in Go
+  package_url: https://pkg.go.dev/github.com/syndtr/goleveldb
+  version: 1.0.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: gomega
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: gommon
+  description: Common packages for Go
+  package_url: https://pkg.go.dev/github.com/labstack/gommon
+  version: 0.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/tokenvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: gopsutil
+  description: Psutil for golang
+  package_url: https://pkg.go.dev/github.com/shirou/gopsutil
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.mod
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: gotenv
+  description: Load environment variables dynamically in Go
+  package_url: https://pkg.go.dev/github.com/subosito/gotenv
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: goupnp
+  description: UPnP library for Go
+  package_url: https://pkg.go.dev/github.com/huin/goupnp
+  version: 1.0.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: gziphandler
+  description: Go middleware to gzip HTTP responses
+  package_url: https://pkg.go.dev/github.com/NYTimes/gziphandler
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: hcl
+  description: HCL is the HashiCorp configuration language
+  package_url: https://pkg.go.dev/github.com/hashicorp/hcl
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: ini.v1
+  description: Package ini provides INI file read and write functionality in Go
+  package_url: https://pkg.go.dev/gopkg.in/ini.v1
+  version: 1.51.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: jwalterweatherman
+  description: So you always leave a note
+  package_url: https://pkg.go.dev/github.com/spf13/jwalterweatherman
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-08-02 23:29:13.000000000 Z
+- name: kr/text
+  description: Miscellaneous functions for formatting text
+  package_url: https://pkg.go.dev/github.com/kr/text
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: logr
+  description: A simple logging interface for Go
+  package_url: https://pkg.go.dev/github.com/go-logr/logr
+  version: 1.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: lumberjack.v2
+  description: Package lumberjack provides a rolling logger
+  package_url: https://pkg.go.dev/gopkg.in/natefinch/lumberjack.v2
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: mousetrap
+  description: Detect starting from Windows explorer
+  package_url: https://pkg.go.dev/github.com/inconshreveable/mousetrap
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: mux
+  description: "A powerful HTTP router and URL matcher for building Go web servers
+    with \U0001F98D"
+  package_url: https://pkg.go.dev/github.com/gorilla/mux
+  version: 1.8.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: perks
+  description: Effective Computation of Things
+  package_url: https://pkg.go.dev/github.com/beorn7/perks
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  version: 1.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: pprof
+  description: Pprof is a tool for visualization and analysis of profiling data
+  package_url: https://pkg.go.dev/github.com/google/pprof
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Sam Batschelet
+  last_updated_on: 2023-08-17 23:39:02.000000000 Z
+- name: pretty
+  description: Pretty printing for Go values
+  package_url: https://pkg.go.dev/github.com/kr/pretty
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: procfs
+  description: Procfs provides functions to retrieve system
+  package_url: https://pkg.go.dev/github.com/prometheus/procfs
+  version: 0.10.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: properties
+  description: Java properties scanner for Go
+  package_url: https://pkg.go.dev/github.com/magiconair/properties
+  version: 1.8.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.mod
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-11-06 20:04:55.000000000 Z
+- name: readline
+  description: Readline is a pure go
+  package_url: https://pkg.go.dev/github.com/chzyer/readline
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Sam Batschelet
+  last_updated_on: 2023-08-17 23:39:02.000000000 Z
+- name: regexp2
+  description: A full-featured regex engine in pure Go based on the .NET engine
+  package_url: https://pkg.go.dev/github.com/dlclark/regexp2
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: rpc
+  description: A golang foundation for RPC over HTTP services
+  package_url: https://pkg.go.dev/github.com/gorilla/rpc
+  version: 1.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: sentry-go
+  description: Official Sentry SDK for Go
+  package_url: https://pkg.go.dev/github.com/getsentry/sentry-go
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: smetrics
+  description: String metrics library written in Go
+  package_url: https://pkg.go.dev/github.com/xrash/smetrics
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: snappy
+  description: The Snappy compression format in the Go programming language
+  package_url: https://pkg.go.dev/github.com/golang/snappy
+  version: 0.0.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-08-02 23:29:13.000000000 Z
+- name: stack
+  description: Package stack implements utilities to capture
+  package_url: https://pkg.go.dev/github.com/go-stack/stack
+  version: 1.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: tablewriter
+  description: ASCII table in golang
+  package_url: https://pkg.go.dev/github.com/olekukonko/tablewriter
+  version: 0.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2024-01-21 15:35:34.000000000 Z
+- name: viper
+  description: Go configuration with fangs
+  package_url: https://pkg.go.dev/github.com/spf13/viper
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: websocket
+  description: A fast
+  package_url: https://pkg.go.dev/github.com/gorilla/websocket
+  version: 1.4.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  version: 1.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: zipkin-go
+  description: Zipkin tracer library for go
+  package_url: https://pkg.go.dev/github.com/openzipkin/zipkin-go
+  version: 0.4.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: zstd
+  description: Zstd wrapper for Go
+  package_url: https://pkg.go.dev/github.com/DataDog/zstd
+  version: 1.5.2
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: zxcvbn-go
+  description: Zxcvbn password complexity algorithm in golang
+  package_url: https://pkg.go.dev/github.com/nbutton23/zxcvbn-go
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/morpheusvm/go.sum
+  detection_source: examples/morpheusvm/go.mod
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-07-24 15:15:15.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 3.2.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package-lock.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 3.2.8
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 3.2.10
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package-lock.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package-lock.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: antd
+  description: An enterprise-class UI design language and React components implementation
+  package_url: https://www.npmjs.com/antd
+  version: 5.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16201/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package-lock.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package-lock.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/donaldww/hypersdk/blob/main/examples/tokenvm/cmd/token-wallet/frontend/package-lock.json
+  detection_source: examples/tokenvm/cmd/token-wallet/frontend/package.json
+  last_updated_by: Patrick O'Grady
+  last_updated_on: 2023-09-20 01:12:58.000000000 Z
